@@ -49,7 +49,7 @@ body {
 
 /* Wrapper */
 .cv-wrapper {
-    width: 262mm;
+    width: 210mm; /* strictly A4 width */
     margin: 40px auto;
     background: var(--cv-white);
     /* box-shadow: 0 15px 35px rgba(0,0,0,0.15); */
@@ -65,21 +65,21 @@ body {
 /* Sidebar */
 .sidebar {
     background: var(--cv-sidebar);
-    padding: 50px 30px 40px;
+    padding: 40px 25px 20px;
 }
 
 .profile-img-container {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .profile-avatar {
-    width: 170px;
-    height: 170px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     margin: 0 auto;
     border: 3px solid var(--cv-dark);
-    padding: 4px;
+    padding: 3px;
     background-clip: content-box;
     object-fit: cover;
     display: block;
@@ -87,24 +87,24 @@ body {
 }
 
 .sidebar-section {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .sidebar-section h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 2px;
     color: var(--cv-dark);
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     text-transform: uppercase;
 }
 
 .contact-item {
     display: flex;
     align-items: flex-start;
-    gap: 15px;
-    margin-bottom: 20px;
-    font-size: 13px;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 12px;
     color: var(--cv-dark);
 }
 
@@ -128,34 +128,34 @@ body {
 /* Main Content */
 .main-content {
     background: var(--cv-white);
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .header {
-    padding-left: 50px;
-    padding-right: 40px;
-    margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 30px;
+    margin-bottom: 20px;
 }
 
 .header h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 55px;
+    font-size: 42px;
     color: var(--cv-dark);
     line-height: 1;
     font-weight: 900;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     text-transform: uppercase;
     letter-spacing: -1px;
 }
 
 .header h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     color: var(--cv-text);
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .summary {
@@ -163,44 +163,44 @@ body {
 }
 
 .main-body {
-    padding: 0 40px 40px 50px;
+    padding: 0 30px 10px 40px;
 }
 
 .main-section {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 /* Section Header styling */
 .section-header {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .header-icon {
-    width: 36px;
-    height: 36px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     border: 2px solid var(--cv-dark);
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--cv-dark);
-    font-size: 16px;
+    font-size: 12px;
     flex-shrink: 0;
-    margin-right: 15px;
+    margin-right: 12px;
     background: #fff;
     z-index: 2;
 }
 
 .header-text-bg {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 1.5px;
     color: var(--cv-dark);
     font-weight: 700;
     background: var(--cv-sidebar);
-    padding: 8px 15px;
+    padding: 6px 12px;
     width: 100%;
     text-transform: uppercase;
 }
@@ -208,17 +208,17 @@ body {
 /* Timeline */
 .timeline {
     border-left: 1.5px solid var(--cv-dark);
-    margin-left: 18px;
-    padding-left: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: 14px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .timeline-item {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 .timeline-item:last-child {
@@ -227,20 +227,20 @@ body {
 
 .timeline-dot {
     position: absolute;
-    left: -30.5px; 
-    top: 3px;
-    width: 10px;
-    height: 10px;
+    left: -25px; 
+    top: 4px;
+    width: 8px;
+    height: 8px;
     background: var(--cv-dark);
     border-radius: 50%;
 }
 
 .timeline-date {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 600;
     color: var(--cv-date);
-    width: 120px;
+    width: 90px;
     flex-shrink: 0;
 }
 
@@ -250,7 +250,7 @@ body {
 
 .timeline-content h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     color: var(--cv-dark);
     font-weight: 600;
     margin-bottom: 2px;
@@ -258,18 +258,18 @@ body {
 
 .timeline-content h4 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    color: #999;
+    font-size: 12px;
+    color: #888;
     font-weight: 500;
     font-style: italic;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .timeline-content p {
-    font-size: 12.5px;
+    font-size: 11px;
     color: var(--cv-text);
     text-align: justify;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 .projects-timeline .timeline-date {
@@ -284,29 +284,33 @@ body {
 .skills-category-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 25px 40px;
-    margin-left: 45px; 
+    gap: 15px 25px;
+    margin-left: 36px; 
 }
 
 .skill-group h4 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     color: var(--cv-dark);
     font-weight: 700;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .skill-group p {
-    font-size: 13px;
+    font-size: 11px;
     color: var(--cv-text);
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 /* Print Settings */
 @media print {
+    @page {
+        size: A4;
+        margin: 0;
+    }
     body { background: #fff; margin: 0; padding: 0; }
     .no-print { display: none !important; }
-    .cv-wrapper { width: 100%; margin: 0; box-shadow: none; }
-    .cv-container { min-height: 100%; }
+    .cv-wrapper { width: 210mm; height: 297mm; margin: 0; box-shadow: none; overflow: hidden; }
+    .cv-container { min-height: 297mm; height: 297mm; }
     * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
 }
